@@ -3,14 +3,14 @@ package unibratec.util;
 import java.util.Calendar;
 import java.util.Date;
 
-import br.com.unibratec.basica.Aluno;
-import br.com.unibratec.basica.Criterio;
-import br.com.unibratec.basica.Endereco;
-import br.com.unibratec.basica.Professor;
-import br.com.unibratec.basica.Situacao;
-import br.com.unibratec.basica.UnidadeFederativa;
-import br.com.unibratec.fachada.Fachada;
-import br.com.unibratec.fachada.IFachada;
+import unibratec.basica.Aluno;
+import unibratec.basica.Criterio;
+import unibratec.basica.Endereco;
+import unibratec.basica.Professor;
+import unibratec.basica.Situacao;
+import unibratec.basica.UnidadeFederativa;
+import unibratec.fachada.Fachada;
+import unibratec.fachada.IFachada;
 
 public class Bot {
 	static IFachada fachada;

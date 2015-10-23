@@ -5,9 +5,9 @@ import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
 
-import br.com.unibratec.basica.Criterio;
-import br.com.unibratec.fachada.Fachada;
-import br.com.unibratec.fachada.IFachada;
+import unibratec.basica.Criterio;
+import unibratec.fachada.Fachada;
+import unibratec.fachada.IFachada;
 
 @FacesConverter(value = "converterCriterio", forClass = Criterio.class)
 public class ConverterCriterio implements Converter {

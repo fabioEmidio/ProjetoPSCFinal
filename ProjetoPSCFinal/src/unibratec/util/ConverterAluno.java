@@ -5,9 +5,9 @@ import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
 
-import br.com.unibratec.basica.Aluno;
-import br.com.unibratec.fachada.Fachada;
-import br.com.unibratec.fachada.IFachada;
+import unibratec.basica.Aluno;
+import unibratec.fachada.Fachada;
+import unibratec.fachada.IFachada;
 
 @FacesConverter(value = "converterAluno", forClass = Aluno.class)
 public class ConverterAluno implements Converter{

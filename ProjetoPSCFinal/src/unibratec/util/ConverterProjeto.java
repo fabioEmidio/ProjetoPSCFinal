@@ -5,9 +5,9 @@ import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
 
-import br.com.unibratec.basica.Projeto;
-import br.com.unibratec.fachada.Fachada;
-import br.com.unibratec.fachada.IFachada;
+import unibratec.basica.Projeto;
+import unibratec.fachada.Fachada;
+import unibratec.fachada.IFachada;
 
 @FacesConverter(value = "converterProjeto", forClass = Projeto.class)
 public class ConverterProjeto implements Converter {

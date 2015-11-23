@@ -121,8 +121,6 @@ public abstract class DAOGenerico<Entidade> implements IDAOGenerico<Entidade>{
 			throw new Exception("Não e possivel excluir este registro, ele está sendo utilizado.");
 		}
 	}
-
-	
 	
 	/**
 	 * Busca o objeto uma vez passado sua chave como parâmetro.
@@ -165,7 +163,6 @@ public abstract class DAOGenerico<Entidade> implements IDAOGenerico<Entidade>{
 		return null;
 	}
 
-	
 	/**
 	 * Utilizado para se injetar o Entity manager no DAO.
 	 * 

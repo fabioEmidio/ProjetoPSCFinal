@@ -9,7 +9,7 @@ import unibratec.basica.Projeto;
 import unibratec.basica.Situacao;
 import unibratec.dao.dominio.IDAOProjeto;
 import unibratec.dao.generico.DAOFactory;
-//import unibratec.util.ConfiguracaoDoSistema;
+import unibratec.util.ConfiguracaoDoSistema;
 
 @SuppressWarnings("unchecked")
 public class RNProjeto {

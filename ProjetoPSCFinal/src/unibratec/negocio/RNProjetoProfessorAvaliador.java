@@ -8,7 +8,7 @@ import unibratec.basica.Projeto;
 import unibratec.basica.ProjetoProfessorAvaliador;
 import unibratec.dao.dominio.IDAOProjetoProfessorAvaliador;
 import unibratec.dao.generico.DAOFactory;
-//import unibratec.util.ConfiguracaoDoSistema;
+import unibratec.util.ConfiguracaoDoSistema;
 
 @SuppressWarnings("unchecked")
 public class RNProjetoProfessorAvaliador {
